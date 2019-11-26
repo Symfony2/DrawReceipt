@@ -35,6 +35,11 @@ public class DrawLine implements IDrawItem {
         return 6;
     }
 
+    @Override
+    public float getRowHeight() {
+        return getHeight();
+    }
+
     public int getColor() {
         return paint.getColor();
     }

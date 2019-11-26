@@ -21,4 +21,9 @@ public class DrawBlankSpace implements IDrawItem {
     public int getHeight() {
         return blankSpace;
     }
+
+    @Override
+    public float getRowHeight() {
+        return getHeight();
+    }
 }
